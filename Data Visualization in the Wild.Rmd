@@ -1,0 +1,34 @@
+---
+title: "Data Visualization in the Wild"
+author: "Kivalina Grove"
+date: "02/25/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE, eval = TRUE}
+library(xaringan)
+options(htmltools.dir.version = FALSE)
+```
+
+class: center
+
+### Visualization 1
+
+![](https://16z85b2i19wn1kkcfv2qhbu3-wpengine.netdna-ssl.com/wp-content/uploads/2007/02/star-trek-graph.png)
+Image credit: [Matt Bailey](https://16z85b2i19wn1kkcfv2qhbu3-wpengine.netdna-ssl.com/wp-content/uploads/2007/02/star-trek-graph.png)
+---
+class: center
+
+### Visualization 2
+```{r, echo = FALSE, out.height = 500, out.width = 450}
+knitr::include_graphics("anchorage.jpg")
+```
+
+Image credit: [Alaska Public Media](https://www.alaskapublic.org/wp-content/uploads/2019/02/2040-LUP-mapWEB.jpg)
+
